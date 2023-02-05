@@ -27,15 +27,15 @@ int[] GenerateArr(int n, int min, int max)
 
 
 int[] array = GenerateArr(10, 100, 999);
-PrintArray (array);
+PrintArray(array);
 
 
 
 int count = 0;
 
 for (int j = 0; j < array.Length; j++)
-if (array[j] % 2 == 0)
-count++;
+    if (array[j] % 2 == 0)
+        count++;
 
 Console.WriteLine($"Количество четных элементов в массиве: {count}");
 
